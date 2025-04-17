@@ -1,8 +1,6 @@
 # retail-sales-analysis
 Retail sales data analysis using Python and Matplotlib.
 
-# Retail Sales Analysis Project
-
 This project analyzes retail transaction data using Python (Pandas & Matplotlib) to extract valuable insights into sales trends, customer behavior, product performance, and regional demand. The project includes various visualizations that provide a deeper understanding of key business metrics, which can help identify growth opportunities and areas for improvement in the retail sector.
 
 ## Dataset
@@ -25,7 +23,7 @@ The following key insights are visualized through various types of charts:
    - This line chart shows the total sales over time, grouped by month. It helps track the overall sales performance and identify trends or fluctuations in sales.
 
 2. **Monthly Customer Growth**:
-   - A line chart showing how many new customers made their first purchase each month. It provides insights into customer acquisition trends and business growth.
+   - A line chart showing how many new customers made their first monthly purchase. It provides insights into customer acquisition trends and business growth.
 
 3. **Top 5 Provinces by Sales**:
    - A bar chart highlighting the top five provinces with the highest total sales. This gives an overview of the most profitable regions.
@@ -40,7 +38,7 @@ The following key insights are visualized through various types of charts:
    - A bar chart comparing the average order value across provinces. This metric helps assess regional revenue efficiency and pricing strategies.
 
 7. **Daily Sales Distribution**:
-   - A line chart that shows how sales fluctuate on a daily basis. This helps identify peak sales days and trends in daily performance.
+   - A line chart that shows how sales fluctuate daily. This helps identify peak sales days and trends in daily performance.
 
 8. **Top 10 Best-Selling Products**:
    - A bar chart displaying the top 10 products based on total quantity sold. This provides insights into which products are the most popular and contribute the most to sales volume.
@@ -58,17 +56,17 @@ pip install pandas matplotlib
 ## How to Run the Project
 1. Clone the repository to your local machine.
 2. Ensure the dataset (`dataset_matplotlib1.csv`) is located in the specified path: `C:\FAWAZUL\Bootcamp\DQLab\dataset_matplotlib1.csv`.
-    If you're using a different directory or operating system, you will need to update the file path in the script. For example:
-        - On macOS/Linux, the path might look like this: /Users/yourname/Bootcamp/DQLab/dataset_matplotlib1.csv.
-        - On Windows, ensure the path includes the correct drive letter and folder structure (e.g., C:\Users\yourname\Documents\dataset_matplotlib1.csv).
-3. Run the Python script to generate the visualizations.
-4. Analyze the graphs to gain insights into retail sales performance.
+   If you're using a different directory or operating system, you must update the file path in the script. For example:
+   - On macOS/Linux, the path might look like this: /Users/yourname/Bootcamp/DQLab/dataset_matplotlib1.csv.
+   - On Windows, ensure the path includes the correct drive letter and folder structure (e.g., C:\Users\yourname\Documents\dataset_matplotlib1.csv).
+4. Run the Python script to generate the visualizations.
+5. Analyze the graphs to gain insights into retail sales performance.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contributing
-If you would like to contribute to this project, feel free to fork the repository, make improvements, and submit a pull request. All contributions are welcome!
+If you'd like to contribute to this project, you can fix the repository, make improvements, and submit a pull request. All contributions are welcome!
 
 ## Acknowledgments
 - The dataset used in this project is provided by DQLab as part of their retail sales analysis exercises.
