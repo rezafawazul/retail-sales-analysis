@@ -70,3 +70,8 @@ If you'd like to contribute to this project, you can fix the repository, make im
 
 ## Acknowledgments
 - The dataset used in this project is provided by DQLab as part of their retail sales analysis exercises.
+
+## File Structure
+This project contains both the Jupyter Notebook for visualization and the Python script version of the code for cleaner readability and modular use.
+- `datavis_matplotlib.ipynb`: Interactive notebook with code and visualization
+- `datavis_matplotlib_script.py`: Clean script version of the notebook
